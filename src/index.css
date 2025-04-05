@@ -2,4 +2,134 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  overflow-x: hidden;
+  color: hsl(229, 31%, 21%);
+}
+section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: hsl(229, 31%, 21%);
+  font-size: 0.8em;
+  font-weight: 600;
+}
+.header {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  list-style: none;
+}
+
+.first {
+  display: flex;
+  margin-top: 35px;
+  height: 400px;
+}
+
+.firstLeft {
+  flex: 1;
+  padding: 25px 50px 25px 0;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.first .tittle {
+  font-size: 2.5em;
+  font-weight: 600;
+  color: hsl(229, 31%, 21%);
+}
+.first .text {
+  color: hsl(229, 8%, 60%);
+  max-width: 500px;
+  font-weight: 520;
+}
+button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-weight: 550;
+  color: hsl(229, 8%, 60%);
+}
+.first .chrome {
+  background-color: hsl(231, 69%, 60%);
+  color: white;
+  margin-right: 10px;
+}
+
+.firstRight {
+  flex: 1;
+  overflow: hidden;
+}
+
+.firstRight img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+.feauters {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.feauters .tittle {
+  font-size: 1.7em;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+.feauters .text {
+  color: hsl(229, 8%, 60%);
+  margin-bottom: 30px;
+}
+.feauters .bookmarks {
+  margin: 0 auto;
+}
+.feauters ul {
+  gap: 25px;
+}
+.second {
+  display: flex;
+}
+.second button {
+  background-color: hsl(231, 69%, 60%);
+  color: white;
+  margin-right: 10px;
+}
+
+.extension .tittle {
+  font-size: 2em;
+  font-weight: 550;
+  text-align: center;
+}
+.extension .text {
+  max-width: 500px;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 0.9em;
+  color: hsl(229, 8%, 60%);
+}
+.browsers {
+  display: flex;
+  justify-content: space-around;
 }
