@@ -66,11 +66,12 @@ button {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   font-weight: 550;
-  color: hsl(229, 8%, 60%);
-}
-.first .chrome {
-  background-color: hsl(231, 69%, 60%);
   color: white;
+  background-color: hsl(231, 69%, 60%);
+}
+.firefox {
+  background-color: hsl(229, 8%, 60%, 10%);
+  color: hsl(229, 31%, 21%, 70%);
   margin-right: 10px;
 }
 
@@ -118,7 +119,7 @@ button {
 }
 
 .extension .tittle {
-  font-size: 2em;
+  font-size: 1.7em;
   font-weight: 550;
   text-align: center;
 }
@@ -132,4 +133,101 @@ button {
 .browsers {
   display: flex;
   justify-content: space-around;
+}
+.browser {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.browserInfo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.questions {
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.questions .tittle {
+  font-size: 1.7em;
+  font-weight: 550;
+  text-align: center;
+}
+.questions .text {
+  font-size: 0.9em;
+  color: hsl(229, 8%, 60%);
+}
+.questions button {
+  width: 100px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form {
+  width: 100%;
+  background-color: hsl(231, 69%, 60%);
+  padding: 4em 0;
+}
+.form .content {
+  max-width: 30vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 35px;
+  color: white;
+  margin: 0 auto;
+}
+.form .joined {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 0.6em;
+}
+.form .tittle {
+  font-size: 2em;
+  font-weight: 600;
+}
+.form input,
+.form button {
+  height: 40px;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  line-height: 1;
+  border-radius: 5px;
+  padding: 0 30px;
+  font-size: 0.7em;
+}
+.form button {
+  background-color: hsl(0, 94%, 66%);
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: hsl(229, 31%, 21%);
+  color: white;
+  padding: 30px 0;
+}
+.footer .content {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer .menu {
+  display: flex;
+  gap: 15px;
+}
+.footer .socialmedia {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }
