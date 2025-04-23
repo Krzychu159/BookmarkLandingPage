@@ -1,5 +1,6 @@
 import "./App.css";
 import Form from "./components/Form";
+import Tab from "./components/Tab";
 
 function App() {
   return (
@@ -47,46 +48,9 @@ function App() {
             </div>
           </div>
         </div>
-        <div class="feauters">
-          <div class="tittle">Feauters</div>
-          <div class="text">
-            Our aim is to make it quick and easy for you to access your
-            favourite websites. Your bookmarks sync between your devices so you
-            can acess them on the go.
-          </div>
-          <div class="bookmarks">
-            <nav>
-              <ul>
-                <li>
-                  <a href="#">Simple bookmarking</a>
-                </li>
-                <li>
-                  <a href="#">Speedy Searching</a>
-                </li>
-                <li>
-                  <a href="#">Easy Sharing</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
 
-        <div class="second">
-          <div class="secondLeft">
-            <div>
-              <img src="images/illustration-hero.svg" alt="" />
-            </div>
-          </div>
-          <div class="secondRight">
-            <div class="tittle">Boookmark in one click</div>
-            <div class="text">
-              Organise your bookmarks however you like. Our simple drag-and-drop
-              interface gives toy complete control over how you manage your
-              favourite sites
-            </div>
-            <button>More Info</button>
-          </div>
-        </div>
+        <Tab />
+
         <div class="extension">
           <div class="tittle">Download the extension</div>
           <div class="text">
